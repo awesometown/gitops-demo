@@ -3,8 +3,7 @@ nameSuffix: -development
 
 labels:
   - pairs:
-      - name: env
-        value: development
+      env: development
     includeSelectors: true
 
 resources:
