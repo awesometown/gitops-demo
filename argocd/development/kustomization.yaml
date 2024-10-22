@@ -1,6 +1,12 @@
 namespace: gitops-demo-argocd
 nameSuffix: -development
 
+labels:
+  - pairs:
+      - name: env
+        value: development
+    includeSelectors: true
+
 resources:
   - ../../app1-base
 # images:
