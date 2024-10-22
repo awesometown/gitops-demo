@@ -8,6 +8,6 @@ labels:
 
 resources:
   - ../../app1-base
-images:
-  - name: nginx
-    newTag: 1.14.1
+# images:
+#   - name: nginx
+#     newTag: 1.14.1
