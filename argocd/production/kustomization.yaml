@@ -1,5 +1,5 @@
 namespace: gitops-demo-argocd
-nameSuffix: -development
+nameSuffix: -production
 
 labels:
   - pairs:
