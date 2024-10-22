@@ -1,4 +1,4 @@
-namespace: gitops-demo-argocd
+namespace: gitops-demo-flux
 nameSuffix: -development
 
 labels:
