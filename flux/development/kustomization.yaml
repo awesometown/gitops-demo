@@ -1,0 +1,13 @@
+namespace: gitops-demo-argocd
+nameSuffix: -development
+
+labels:
+  - pairs:
+      env: development
+    includeSelectors: true
+
+resources:
+  - ../../app1-base
+# images:
+#   - name: nginx
+#     newTag: 1.14.1

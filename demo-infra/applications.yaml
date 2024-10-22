@@ -3,8 +3,9 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: development
+  namespace: argocd
 spec:
-  project: default
+  project: demo-app
   source:
     repoURL: https://github.com/awesometown/gitops-demo.git
     path: argocd/development
@@ -16,8 +17,9 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: staging
+  namespace: argocd
 spec:
-  project: default
+  project: demo-app
   source:
     repoURL: https://github.com/awesometown/gitops-demo.git
     path: argocd/staging
@@ -29,8 +31,9 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: production
+  namespace: argocd
 spec:
-  project: default
+  project: demo-app
   source:
     repoURL: https://github.com/awesometown/gitops-demo.git
     path: argocd/production
